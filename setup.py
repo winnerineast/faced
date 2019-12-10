@@ -5,6 +5,7 @@ def readme():
     with open('README.md') as f:
         return f.read()
 
+
 with open('requirements.txt') as f:
     required = f.read().splitlines()
 
